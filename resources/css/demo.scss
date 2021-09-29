@@ -1,7 +1,33 @@
 input[type="text"].demo {
-    @apply border border-pink-600 px-3 py-1 text-xl;
+    @apply border border-pink-600 px-3 py-2 text-xl;
 }
 
 button.demo {
-    @apply bg-pink-700 text-white px-3 py-1 text-xl;
+    @apply bg-pink-700 text-white px-5 py-2 text-xl;
 }
+
+/* modal form */
+.modal-form {
+    @apply bg-black bg-opacity-50 absolute inset-0 justify-center items-center hidden;
+}
+
+.modal-form-dialog {
+    @apply bg-gray-100 rounded h-1/5 w-1/5;
+}
+
+.close-btn {
+    @apply text-right bg-pink-700 px-3 py-1 rounded text-lg text-gray-100;
+}
+
+.close-text-btn {
+    @apply text-right bg-pink-700 px-6 py-2 rounded text-2xl text-gray-100;
+}
+
+.modal-form-header {
+    @apply flex justify-between items-center mb-2;
+}
+
+.modal-form-footer {
+    @apply flex justify-center bg-gray-200 py-4;
+}
+/* modal form */
