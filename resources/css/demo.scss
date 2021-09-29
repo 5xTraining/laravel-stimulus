@@ -1,0 +1,7 @@
+input[type="text"].demo {
+    @apply border border-pink-600 px-3 py-1 text-xl;
+}
+
+button.demo {
+    @apply bg-pink-700 text-white px-3 py-1 text-xl;
+}
