@@ -31,3 +31,39 @@ button.demo {
     @apply flex justify-center bg-gray-200 py-4;
 }
 /* modal form */
+
+/* product */
+.product {
+    @apply flex;
+}
+
+.product-image {
+    @apply h-1/2 w-1/2 mr-8;
+}
+
+.product-detail {
+}
+
+.product-detail > h2 {
+    @apply text-gray-700 text-4xl font-thin;
+}
+
+.product-detail > p {
+    @apply text-gray-500 text-lg font-thin;
+}
+
+.product-amount {
+    @apply flex;
+}
+
+.product-amount .amount-btn {
+    @apply bg-gray-400 px-4 text-gray-50 py-1 text-xl hover:bg-gray-500;
+}
+
+.product-amount .amount-input {
+    @apply border border-gray-400 text-gray-600 font-thin px-2 py-1 text-xl text-center;
+}
+
+.product .chart-btn {
+    @apply bg-pink-600 text-pink-50 py-3 font-thin text-3xl rounded my-2 hover:bg-pink-700;
+}
